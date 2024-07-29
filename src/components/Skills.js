@@ -12,6 +12,7 @@ export default function Skills(){
                 <img className='logo' src='./images/python-logo.png' alt="python logo"/>
                 <img className='logo' src='./images/git-logo.png' alt="git logo"/>
                 <img className='logo' src='./images/tailwind-logo.png' alt="tailwind logo"/>
+                <img className='logo' src='./images/nodejs.png' alt="node.js logo"/>
             </div>
         </section>
     )
