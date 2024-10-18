@@ -298,11 +298,14 @@ a:visited{
     width: 100px;
   }
 
+}
+
+@media (max-width: 600px) {
+
   .project-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
 
 }
