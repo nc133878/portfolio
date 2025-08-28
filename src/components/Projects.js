@@ -53,7 +53,7 @@ function Projects() {
               
               <img className='project-img' src='./assets/Quizzical.png' alt='Quiz game screenshot'/>
               
-              <a href='https://master--landing-static-tailwindcss.netlify.app/' target="_blank" rel="noreferrer">
+              <a href='https://react-quiz-trivia-app.netlify.app/' target="_blank" rel="noreferrer">
                 <div className='overlay'>
                     This project leverages the Open Trivia API to create a fun Trivia web application.
                     <br/>
