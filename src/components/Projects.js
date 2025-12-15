@@ -16,6 +16,8 @@ function Projects() {
               <a href='https://atelier-rue.netlify.app/' target="_blank" rel="noreferrer">
                 <div className='overlay'>
                     This project leverages MERN stack + Stripe to deliver an e-commerce storefront.
+
+                    NOTE: Backend takes a second to load. Wait a few seconds for products to render.
                     <br/>
                     <br/>
                     <strong>Click to visit page</strong>
