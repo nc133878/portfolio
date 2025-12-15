@@ -10,6 +10,25 @@ function Projects() {
         <div className='project-grid'>
 
           <div>
+            <h3>Atelier Rue - Fullstack E-commerce storefront</h3>
+            <div className='image'>
+              
+              <img className='project-img' src='./assets/atelier-rue.png' alt='E-commerce storefront screenshot' />
+              
+              <a href='https://atelier-rue.netlify.app/' target="_blank" rel="noreferrer">
+                <div className='overlay'>
+                    This project leverages MERN stack + Stripe to deliver an e-commerce storefront.
+                    <br/>
+                    <br/>
+                    <strong>Click to visit page</strong>
+                </div>
+              </a>
+
+              <p className='tech-stack-text'><strong>Tech Stack:</strong> MERN, Tailwind, Stripe, Netlify, Render</p>
+            </div>
+          </div>
+
+          <div>
             <h3>Add to Cart - Shopping List App </h3>
             <div className='image'>
               
@@ -17,7 +36,7 @@ function Projects() {
               
               <a href='https://add-to-cart-nc.netlify.app/' target="_blank" rel="noreferrer">
                 <div className='overlay'>
-                    This project leverages a firebase DB to create a shopping list application.
+                    This project leverages Firebase DB to create a shopping list application.
                     <br/>
                     <br/>
                     <strong>Click to visit page</strong>
@@ -28,24 +47,7 @@ function Projects() {
             </div>
           </div>
 
-          <div>
-            <h3>Static Tailwind Landing Page </h3>
-            <div className='image'>
-              
-              <img className='project-img' src='./assets/tailwind-static.png' alt='Static Tailwind page screenshot' />
-              
-              <a href='https://master--landing-static-tailwindcss.netlify.app/' target="_blank" rel="noreferrer">
-                <div className='overlay'>
-                    This project leverages React and Tailwind CSS to build a static landing page for an imaginary Tailwind CSS course.
-                    <br/>
-                    <br/>
-                    <strong>Click to visit page</strong>
-                </div>
-              </a>
-
-              <p className='tech-stack-text'><strong>Tech Stack:</strong> React, Tailwind, Netlify</p>
-            </div>
-          </div>
+          
 
           <div>
             <h3>Quizzical - Quiz Game </h3>

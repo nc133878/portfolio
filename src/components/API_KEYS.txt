@@ -1,0 +1,33 @@
+OPEN AI KEY - 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
+
+import OpenAI from "openai";
+
+const openai = new OpenAI({
+  apiKey: "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",
+});
+
+const response = openai.responses.create({
+  model: "gpt-5-nano",
+  input: "write a haiku about ai",
+  store: true,
+});
+
+response.then((result) => console.log(result.output_text));
+
+const messages = [
+    {
+        role: 'system',
+        content: 'You are a poet.'
+    },
+    {
+        role: 'user',
+        content: 'Write a poem about television is 5 couplets'
+    }
+]
+
+const response = await openai.chat.completions.create({
+    model: 'gpt-5-nano',
+    messages: messages
+})
+
+console.log(response.choices[0].message.content)
