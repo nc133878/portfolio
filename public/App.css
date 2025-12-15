@@ -225,9 +225,10 @@ a:visited{
   text-align: center;
 }
 
-.image{
-  position:relative;
+.image {
+  position: relative;
   width: 300px;
+  margin: 0 auto; 
 }
 
 .project-img{

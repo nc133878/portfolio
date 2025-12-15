@@ -12,9 +12,7 @@ function Projects() {
           <div>
             <h3>Atelier Rue - Fullstack E-commerce storefront</h3>
             <div className='image'>
-              
               <img className='project-img' src='./assets/atelier-rue.png' alt='E-commerce storefront screenshot' />
-              
               <a href='https://atelier-rue.netlify.app/' target="_blank" rel="noreferrer">
                 <div className='overlay'>
                     This project leverages MERN stack + Stripe to deliver an e-commerce storefront.
@@ -23,7 +21,6 @@ function Projects() {
                     <strong>Click to visit page</strong>
                 </div>
               </a>
-
               <p className='tech-stack-text'><strong>Tech Stack:</strong> MERN, Tailwind, Stripe, Netlify, Render</p>
             </div>
           </div>
