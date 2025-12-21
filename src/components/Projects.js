@@ -35,7 +35,7 @@ function Projects() {
               
               <a href='https://tealhouse-ats.netlify.app/login' target="_blank" rel="noreferrer">
                 <div className='overlay'>
-                    This project leverages MERN stack + Stripe to deliver a production-style, multi-tenant applicant tracking system that lets teams manage jobs, candidates, and hiring pipelines end-to-end.”.
+                    This project leverages MERN stack + Stripe to deliver a production-style, multi-tenant applicant tracking system. Includes live demo.
                     <br/>
                     <br/>
                     <strong>Click to visit page</strong>
