@@ -28,25 +28,25 @@ function Projects() {
           </div>
 
           <div>
-            <h3>Add to Cart - Shopping List App </h3>
+            <h3>Tealhouse - ATS Tracking System </h3>
             <div className='image'>
               
-              <img className='project-img' src='./assets/add-to-cart.png'  alt='Add to cart app screnshot'/>
+              <img className='project-img' src='./assets/tealhouse.png'  alt='Add to cart app screnshot'/>
               
-              <a href='https://add-to-cart-nc.netlify.app/' target="_blank" rel="noreferrer">
+              <a href='https://tealhouse-ats.netlify.app/login' target="_blank" rel="noreferrer">
                 <div className='overlay'>
-                    This project leverages Firebase DB to create a shopping list application.
+                    This project leverages MERN stack + Stripe to deliver a production-style, multi-tenant applicant tracking system that lets teams manage jobs, candidates, and hiring pipelines end-to-end.”.
                     <br/>
                     <br/>
                     <strong>Click to visit page</strong>
                 </div>
               </a>
 
-              <p className='tech-stack-text'><strong>Tech Stack:</strong> HTML/CSS, Javascript, Firebase, Netlify</p>
+              <p className='tech-stack-text'><strong>Tech Stack:</strong> MERN, Tailwind, Netlify, Render</p>
             </div>
           </div>
 
-          
+        
 
           <div>
             <h3>Quizzical - Quiz Game </h3>
@@ -73,3 +73,24 @@ function Projects() {
 }
 
 export default Projects
+
+/*
+          <div>
+            <h3>Add to Cart - Shopping List App </h3>
+            <div className='image'>
+              
+              <img className='project-img' src='./assets/add-to-cart.png'  alt='Add to cart app screnshot'/>
+              
+              <a href='https://add-to-cart-nc.netlify.app/' target="_blank" rel="noreferrer">
+                <div className='overlay'>
+                    This project leverages Firebase DB to create a shopping list application.
+                    <br/>
+                    <br/>
+                    <strong>Click to visit page</strong>
+                </div>
+              </a>
+
+              <p className='tech-stack-text'><strong>Tech Stack:</strong> HTML/CSS, Javascript, Firebase, Netlify</p>
+            </div>
+          </div>
+*/
