@@ -10,7 +10,7 @@ function Projects() {
         <div className='project-grid'>
 
           <div>
-            <h3>Atelier Rue - Fullstack E-commerce storefront</h3>
+            <h3>Atelier Rue - E-commerce storefront</h3>
             <div className='image'>
               <img className='project-img' src='./assets/atelier-rue.png' alt='E-commerce storefront screenshot' />
               <a href='https://atelier-rue.netlify.app/' target="_blank" rel="noreferrer">
