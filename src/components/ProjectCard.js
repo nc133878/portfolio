@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProjectCard({ title, url, description, techStack }) {
   return (
-    <div className='project-card'>
+    <a href={url} target="_blank" rel="noreferrer" className='project-card'>
       <h3 className='project-title'>{title}</h3>
       <div className='iframe-wrapper'>
         <iframe
@@ -15,8 +15,7 @@ function ProjectCard({ title, url, description, techStack }) {
       </div>
       <p className='project-description'>{description}</p>
       <p className='tech-stack-text'><strong>Tech Stack:</strong> {techStack}</p>
-      <a href={url} target="_blank" rel="noreferrer" className='visit-btn'>Visit Project</a>
-    </div>
+    </a>
   )
 }
 

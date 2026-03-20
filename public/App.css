@@ -235,6 +235,20 @@ a:visited{
   min-width: 0;
   max-width: 100%;
   overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.project-card:visited {
+  color: inherit;
 }
 
 .project-title {
@@ -272,27 +286,6 @@ a:visited{
   margin: 0;
 }
 
-.visit-btn {
-  display: block;
-  margin-top: auto;
-  padding: 0.5em 1em;
-  background: #F3BF99;
-  color: #1a1b21;
-  border-radius: 6px;
-  font-weight: bold;
-  font-size: 0.85rem;
-  text-align: center;
-  text-decoration: none;
-}
-
-.visit-btn:hover {
-  opacity: 0.8;
-  text-decoration: none;
-}
-
-.visit-btn:visited {
-  color: #1a1b21;
-}
 
 .icon-grey {
   color: rgb(150, 153, 157);
