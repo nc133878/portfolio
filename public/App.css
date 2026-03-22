@@ -292,6 +292,13 @@ a:visited{
 }
 
 
+.projects-note {
+  font-size: 0.8rem;
+  color: #a0a0a0;
+  text-align: center;
+  padding: 0 2em 1.5em;
+}
+
 .icon-grey {
   color: rgb(150, 153, 157);
 }

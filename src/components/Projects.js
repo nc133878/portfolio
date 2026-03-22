@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Atelier Rue - E-commerce Storefront",
     url: "https://atelier-rue.netlify.app/",
-    description: "A MERN stack + Stripe e-commerce storefront. Note: backend takes a few seconds to spin up.",
+    description: "A MERN stack + Stripe e-commerce storefront.",
     techStack: "MERN, Tailwind, Stripe, Netlify, Render"
   },
   {
@@ -37,6 +37,7 @@ function Projects() {
           <ProjectCard key={project.url} {...project} />
         ))}
       </div>
+      <p className='projects-note'>⚠ Backends are hosted on Render and may take ~60s to spin up on first load.</p>
     </section>
   )
 }
