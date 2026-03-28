@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ProjectCard({ title, url, description, techStack }) {
+function ProjectCard({ title, url, github, description, techStack }) {
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer" className='project-card'>
+    <div className='project-card'>
       <h3 className='project-title'>{title}</h3>
       <div className='iframe-wrapper'>
         <iframe
@@ -15,7 +15,11 @@ function ProjectCard({ title, url, description, techStack }) {
       </div>
       <p className='project-description'>{description}</p>
       <p className='tech-stack-text'><strong>Tech Stack:</strong> {techStack}</p>
-    </a>
+      <div className='project-links'>
+        <a href={url} target="_blank" rel="noopener noreferrer" className='project-link'>Live Demo</a>
+        <a href={github} target="_blank" rel="noopener noreferrer" className='project-link'>GitHub</a>
+      </div>
+    </div>
   )
 }
 

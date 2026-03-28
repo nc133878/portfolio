@@ -235,25 +235,36 @@ a:visited{
   min-width: 0;
   max-width: 100%;
   overflow: hidden;
-  cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-decoration: none;
   color: inherit;
 }
 
 .project-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6);
+}
+
+.project-links {
+  display: flex;
+  gap: 0.75em;
+  margin-top: auto;
+}
+
+.project-link {
+  flex: 1;
+  text-align: center;
+  padding: 0.4em 0.75em;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
   text-decoration: none;
+  background: #3a3d4a;
+  color: #F3BF99;
+  transition: background 0.2s ease;
 }
 
-.project-card:active {
-  transform: scale(0.98);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-}
-
-.project-card:visited {
-  color: inherit;
+.project-link:hover {
+  background: #4e5263;
 }
 
 .project-title {

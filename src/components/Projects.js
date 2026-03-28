@@ -5,24 +5,28 @@ const projects = [
   {
     title: "Atelier Rue - E-commerce Storefront",
     url: "https://atelier-rue.netlify.app/",
+    github: "https://github.com/nc133878/e-commerce-project",
     description: "A MERN stack + Stripe e-commerce storefront.",
     techStack: "MERN, Tailwind, Stripe, Netlify, Render"
   },
   {
     title: "Tealhouse - ATS Tracking System",
     url: "https://tealhouse-ats.netlify.app/login",
+    github: "https://github.com/nc133878/ats-tracking-system",
     description: "A production-style, multi-tenant applicant tracking system with a live demo account.",
     techStack: "MERN, Tailwind, Netlify, Render"
   },
   {
     title: "Songbook - Music Split Sheet Manager",
     url: "https://songbook-app.netlify.app/",
+    github: "https://github.com/nc133878/songbook-web-app",
     description: "Full-stack app for music professionals to manage songs, collaborators, and royalty split sheets with PDF generation.",
     techStack: "React, TypeScript, Go, PostgreSQL, Tailwind, Vite"
   },
   {
     title: "Quizzical - Quiz Game",
     url: "https://react-quiz-trivia-app.netlify.app/",
+    github: "https://github.com/nc133878/quiz-web-app",
     description: "A fun trivia web app powered by the Open Trivia API.",
     techStack: "React, HTML/CSS, Netlify"
   }
