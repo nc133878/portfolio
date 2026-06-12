@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Info(){
     return(
-            <div className='info'>
+            <div className='info hero-rise hero-rise-3'>
                 <h1>Neal Crawford</h1>
                 <p className='job-title'>Full Stack Developer</p>
                 <a className="email-anchor" target="_blank" rel="noreferrer" href= "mailto: crawford.neal18@email.com">

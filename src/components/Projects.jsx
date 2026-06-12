@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import useReveal from '../hooks/useReveal'
 
 const projects = [
   {
@@ -47,12 +48,13 @@ const projects = [
 ]
 
 function Projects() {
+  const [ref, visible] = useReveal()
   return (
-    <section className='project-container'>
+    <section ref={ref} className={`project-container reveal ${visible ? 'is-visible' : ''}`}>
       <h2>Projects</h2>
       <div className='project-grid'>
-        {projects.map((project) => (
-          <ProjectCard key={project.url} {...project} />
+        {projects.map((project, i) => (
+          <ProjectCard key={project.url} index={i} {...project} />
         ))}
       </div>
       <p className='projects-note'>⚠ Some projects have backends hosted on Render that may take ~60s to spin up on first load.</p>

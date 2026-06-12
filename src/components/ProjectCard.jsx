@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ProjectCard({ title, url, github, description, techStack }) {
+function ProjectCard({ title, url, github, description, techStack, index = 0 }) {
   return (
-    <div className='project-card'>
+    <div className='project-card' style={{ '--i': index }}>
       <h3 className='project-title'>{title}</h3>
       <div className='iframe-wrapper'>
         <iframe
