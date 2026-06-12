@@ -3,6 +3,20 @@ import ProjectCard from './ProjectCard'
 
 const projects = [
   {
+    title: "Avon - Music Distribution Platform",
+    url: "https://avon-distro.netlify.app/",
+    github: "https://github.com/nc133878/distro-platform",
+    description: "A full-service music distribution platform for independent artists, featuring a marketing site, authentication flows, and an artist dashboard with analytics. Still in progress — frontend only as of now.",
+    techStack: "Next.js, React, TypeScript, Tailwind, Framer Motion, Recharts"
+  },
+  {
+    title: "Prowess - Interiors & Productions",
+    url: "https://prowess-productions.netlify.app/",
+    github: "https://github.com/nc133878/prowess",
+    description: "A portfolio site for a luxury interior design and production studio, with a filterable client gallery and a contact form powered by Resend.",
+    techStack: "Next.js, React, TypeScript, Tailwind, Resend"
+  },
+  {
     title: "Atelier Rue - E-commerce Storefront",
     url: "https://atelier-rue.netlify.app/",
     github: "https://github.com/nc133878/e-commerce-project",
@@ -41,7 +55,7 @@ function Projects() {
           <ProjectCard key={project.url} {...project} />
         ))}
       </div>
-      <p className='projects-note'>⚠ Backends are hosted on Render and may take ~60s to spin up on first load.</p>
+      <p className='projects-note'>⚠ Some projects have backends hosted on Render that may take ~60s to spin up on first load.</p>
     </section>
   )
 }
