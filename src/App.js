@@ -16,10 +16,10 @@ export default function App(){
           <div className='container'>
             <Info />
             <About />
-            <Footer />
           </div>
           <Skills />
           <Projects />
+          <Footer />
         </main>
     )
 }

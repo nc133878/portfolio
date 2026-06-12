@@ -76,10 +76,6 @@ a:visited{
   color: white;
 }
 
-a:visited{
-  color: white;
-}
-
 #root{
   color: white;
 }
@@ -96,7 +92,7 @@ a:visited{
 }
 
 .greeting{
-  width: 300;
+  width: 300px;
   margin: 1em auto;
   display: flex;
   justify-content: center;
