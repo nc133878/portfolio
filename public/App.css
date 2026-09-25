@@ -241,6 +241,15 @@ a:visited{
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6);
 }
 
+/* With an odd number of projects the final card would sit alone in the left
+   column. Span it across both and cap it at one column's width so it stays
+   the same size as its siblings, just centred. */
+.project-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  width: calc(50% - 0.75em);
+  justify-self: center;
+}
+
 .project-links {
   display: flex;
   gap: 0.75em;
@@ -369,6 +378,11 @@ a:visited{
     grid-template-columns: 1fr;
     padding: 1em;
     gap: 1.5em;
+  }
+
+  /* Single column: nothing is orphaned, so the last card is full width again. */
+  .project-card:last-child:nth-child(odd) {
+    width: 100%;
   }
 
   section {

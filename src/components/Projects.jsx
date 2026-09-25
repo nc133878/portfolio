@@ -4,13 +4,6 @@ import useReveal from '../hooks/useReveal'
 
 const projects = [
   {
-    title: "Avon - Music Distribution Platform",
-    url: "https://avon-distro.netlify.app/",
-    github: "https://github.com/nc133878/distro-platform",
-    description: "A full-service music distribution platform for independent artists, featuring a marketing site, authentication flows, and an artist dashboard with analytics. Still in progress — frontend only as of now, with placeholder data for charts and metrics.",
-    techStack: "Next.js, React, TypeScript, Tailwind, Framer Motion, Recharts"
-  },
-  {
     title: "Prowess - Interiors & Productions",
     url: "https://prowess-productions.netlify.app/",
     github: "https://github.com/nc133878/prowess",
